@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MFTServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MFTServer_jar</output-path>
+    <root id="archive" name="MFTServer.jar">
+      <element id="module-output" name="MFTServer" />
+      <element id="module-output" name="MFTClient" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/redist/annotations-java8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
